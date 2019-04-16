@@ -1,1 +1,1 @@
-# minha_grana
+Projeto de estudo React + Redux + Mongo + Node + Express

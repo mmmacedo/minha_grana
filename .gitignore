@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+#webstorm
+.idea
+
+#backend
+./backend/node_modules
+./backend/package-lock.json
