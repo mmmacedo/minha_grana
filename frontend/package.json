@@ -1,10 +1,12 @@
 {
-  "name": "frontend",
+  "name": "minha-grana-frontend",
   "version": "1.0.0",
   "description": "front end da aplicacao",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production":  "webpack --progress -p",
+    "stop": "taskkill -F -IM node.exe"
   },
   "keywords": [],
   "author": "mmmacedo",
